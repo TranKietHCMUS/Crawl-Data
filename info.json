@@ -1,0 +1,27 @@
+{
+    "host": "localhost",
+    "database": "postgres",
+    "user": "postgres",
+    "event": {
+        "url" : "https://truyenmoi.org/",
+        "table_name": "comic_web_data",
+        "data_field": [
+            {
+                "field": "id",
+                "type": "integer"
+            },
+            {
+                "field": "story_link",
+                "type": "varchar"
+            },
+            {
+                "field": "poster_image_link",
+                "type": "varchar"
+            },
+            {
+                "field": "story_name",
+                "type": "varchar"
+            }
+        ]
+    }
+}
